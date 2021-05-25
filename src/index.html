@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Tags -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Other Links -->
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+		<!-- CSS Reset -->
+		<link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+		<link href="https://unpkg.com/sanitize.css/forms.css" rel="stylesheet" />
+		<link href="https://unpkg.com/sanitize.css/assets.css" rel="stylesheet" />
+		<link href="https://unpkg.com/sanitize.css/typography.css" rel="stylesheet" />
+		<link href="https://unpkg.com/sanitize.css/reduce-motion.css" rel="stylesheet" />
+
+		<!-- Water.css (Class-less Framework) -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css" />
+
+		<!-- Your Styles -->
+		<link rel="stylesheet" href="/styles/style.css" />
+
+		<!-- Scripts -->
+		<script defer type="module" src="/main.js"></script>
+		<script defer src="/scripts/index.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+		<script defer>
+			function toggleTheme() {
+				const theme = document.getElementsByTagName('link')[6];
+
+				if (theme.getAttribute('href') == 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css') {
+					theme.setAttribute('href', 'https://cdn.jsdelivr.net/npm/water.css@2/out/light.css');
+				} else {
+					theme.setAttribute('href', 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css');
+				}
+			}
+		</script>
+
+		<title>Vanilla Playground</title>
+	</head>
+	<body>
+		<div class="container">
+			<button onclick="toggleTheme()">Switch Theme</button>
+			<h1>
+				<span><i class="fas fa-home"></i></span> Vanilla Playground
+			</h1>
+
+			<p>This is a vanilla playground scaffolded with vite.js to mess around with HTML/CSS/JS.</p>
+			<p>Comes with eslint and stylelint pre-configured.</p>
+			<br />
+			<p>
+				<span><i class="fas fa-info-circle"></i>&nbsp;</span>Assumes prettier is already setup.
+			</p>
+		</div>
+	</body>
+</html>

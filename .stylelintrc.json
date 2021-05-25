@@ -1,0 +1,26 @@
+{
+	"extends": [
+		"stylelint-config-recommended",
+		"stylelint-config-standard",
+		"stylelint-config-rational-order",
+		"stylelint-config-prettier"
+	],
+	"plugins": [
+		"stylelint-order",
+		"stylelint-config-rational-order/plugin",
+		"stylelint-color-format"
+	],
+	"rules": {
+		"color-format/format": {
+			"format": "hsla"
+		},
+		"order/properties-order": [],
+		"plugin/rational-order": [
+			true,
+			{
+				"border-in-box-model": true,
+				"empty-line-between-groups": false
+			}
+		]
+	}
+}
