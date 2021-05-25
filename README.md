@@ -1,6 +1,8 @@
 # Bin2Dec Converter
 
-Bin2Dec converter made in Vanilla JS/CSS/HTML.
+Bin2Dec converter made with Vanilla JS.
+
+- [Live Demo](https://binary-to-dec.netlify.app)
 
 ---
 
@@ -13,3 +15,5 @@ Bin2Dec converter made in Vanilla JS/CSS/HTML.
 `npm run build` to build for production.
 
 `npm run serve` to previw the production build.
+
+---
