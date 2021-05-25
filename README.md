@@ -4,7 +4,7 @@ Bin2Dec converter made with Vanilla JS.
 
 - [Live Demo](https://binary-to-dec.netlify.app)
 
----
+
 
 ## Usage
 
@@ -16,4 +16,3 @@ Bin2Dec converter made with Vanilla JS.
 
 `npm run serve` to previw the production build.
 
----
