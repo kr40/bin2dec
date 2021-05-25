@@ -37,21 +37,27 @@
 			}
 		</script>
 
-		<title>Vanilla Playground</title>
+		<title>Bin2Dec Converter</title>
 	</head>
 	<body>
-		<div class="container">
-			<button onclick="toggleTheme()">Switch Theme</button>
-			<h1>
-				<span><i class="fas fa-home"></i></span> Vanilla Playground
-			</h1>
+		<header>
+			<h1>Binary to Decimal Converter</h1>
+			<button class="switchThemeBtn" onclick="toggleTheme()">Switch Theme</button>
+		</header>
 
-			<p>This is a vanilla playground scaffolded with vite.js to mess around with HTML/CSS/JS.</p>
-			<p>Comes with eslint and stylelint pre-configured.</p>
-			<br />
-			<p>
-				<span><i class="fas fa-info-circle"></i>&nbsp;</span>Assumes prettier is already setup.
-			</p>
-		</div>
+		<main class="container">
+			<label for="binary">Enter a Binary Number:</label>
+			<input type="number" name="binary" id="binaryVal" placeholder="Enter a Binary Number" /> <br />
+			<label for="decimal">Converted Decimal Number:</label>
+			<input type="number" name="decimal" id="decimalVal" disabled /> <br />
+			<div class="btns">
+				<button class="convertBtn">Convert</button>
+				<button class="resetBtn">Reset</button>
+			</div>
+			<footer>
+				<p>Made by <a href="https://github.com/kr40" target="_blank">Kartik Rao</a> with &nbsp; ❤️</p>
+				<a href="https://github.com/kr40/bin2dec" target="_blank">Github</a>
+			</footer>
+		</main>
 	</body>
 </html>
