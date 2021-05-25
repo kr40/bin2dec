@@ -12,4 +12,4 @@ Bin2Dec converter made with Vanilla JS.
 
 `npm run build` to build for production.
 
-`npm run serve` to previw the production build.
+`npm run serve` to preview the production build.
