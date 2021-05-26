@@ -5,7 +5,6 @@
 /** Your styles go here */
 
 h1 {
-	margin-bottom: 80px;
 	font-family: Overpass, monospace;
 	text-align: center;
 }
@@ -30,6 +29,6 @@ header {
 }
 
 footer {
-	margin-top: 100px;
+	margin-top: 150px;
 	text-align: center;
 }
